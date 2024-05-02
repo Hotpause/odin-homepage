@@ -1,6 +1,3 @@
-/* for desktop
-@media screen and (min-width: 1200px) {
-} */
 body {
   /* border: 2px solid; */
 
@@ -374,5 +371,99 @@ footer {
     height: 100%;
     transform: scale(100%);
     object-fit: cover;
+  }
+}
+
+/* ***************************************** */
+
+/* for desktop */
+@media screen and (min-width: 1200px) {
+  .about-me {
+    /* border: 2px solid red; */
+    /* height: 950px; */
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+  }
+
+  .about-me > .information {
+    /* border: 2px solid green; */
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+    gap: 0px;
+  }
+  .information > .picture-container {
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin: 0;
+    transform: none;
+    float: none;
+    justify-self: estretchnd;
+  }
+
+  .picture-container > picture {
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+  }
+  .picture-container > .name {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    top: auto;
+    bottom: 0.7rem;
+    left: 0;
+  }
+  .information > .text {
+    display: flex;
+    height: 70%;
+
+    /* border: 2px solid black; */
+  }
+  .text > h2 {
+    /* border: 2px solid maroon; */
+    align-self: flex-start;
+  }
+  .text > p {
+    align-self: flex-start;
+    /* border: 2px solid maroon; */
+  }
+
+  .text > .icons {
+    /* border: 2px solid maroon; */
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* ****************************** */
+
+  .projects {
+    /* border: 2px solid red; */
+    width: 80vw;
+  }
+
+  .project-container {
+    /* border: 2px solid green; */
+    width: 100%;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 50px;
+  }
+
+  /* ****************************** */
+
+  .contact-me {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100%;
+  }
+  .contact-me > picture {
+    width: 70%;
   }
 }
