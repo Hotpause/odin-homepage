@@ -34,7 +34,7 @@ body {
 }
 
 .decoration {
-  width: 110%;
+  width: 100%;
   height: 50vh;
   background-color: darkslategrey;
   position: absolute;
@@ -42,7 +42,7 @@ body {
   top: -130px;
   z-index: -1;
   box-shadow: 2px 5px 4px #888888;
-  right: -10px;
+  right: -0px;
 }
 
 .picture-container > picture {
@@ -219,6 +219,8 @@ i {
 
 .contact-me > picture {
   /* border: 3px solid yellowgreen; */
+  display: flex;
+  align-items: flex-end;
 }
 img {
   width: 100%;
